@@ -1,0 +1,25 @@
+
+# React frontend
+Frontend/node_modules/
+Frontend/dist/
+
+# Java backend
+Backend/target/
+
+# SQLite database and backups
+database/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
